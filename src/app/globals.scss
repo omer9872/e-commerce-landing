@@ -1,0 +1,59 @@
+@import "antd/dist/reset.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  flex: 0 0 275px !important;
+  max-width: 275px !important;
+  min-width: 275px !important;
+  width: 275px !important;
+}
+
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:active {
+    color: inherit;
+  }
+}
+
+.swiper-pagination-progressbar-fill {
+  border: 2px solid #9333ea;
+  border-radius: 5px;
+}
+
+.item-border {
+  @apply rounded-lg border border-solid border-light-border dark:border-dark-border;
+}
+.item-border-top {
+  @apply border-0 border-t border-solid border-light-border dark:border-dark-border;
+}
+.item-border-bottom {
+  @apply border-0 border-b border-solid border-light-border dark:border-dark-border;
+}

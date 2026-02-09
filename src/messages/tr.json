@@ -1,0 +1,364 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "back": "Geri",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "search": "Ara",
+    "required": "Zorunlu alan",
+    "send": "Gönder",
+    "noData": "Veri bulunamadı",
+    "actions": {
+      "noResults": "Sonuç bulunamadı",
+      "send": "Gönder",
+      "apply": "Değişiklikleri Uygula",
+      "search": "Ara",
+      "remove": "Sil",
+      "add": "Ekle",
+      "back": "Geri",
+      "edit": "Düzenle",
+      "update": "Güncelle",
+      "delete": "Sil",
+      "view": "Görüntüle",
+      "create": "Oluştur",
+      "upload": "Yükle",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "reset": "Sıfırla",
+      "next": "İleri",
+      "previous": "Geri"
+    },
+    "errors": {
+      "required": "Zorunlu alan",
+      "invalidUrl": "Lütfen geçerli bir URL giriniz",
+      "atLeastCharacters": "En az {min} karakter",
+      "atMostCharacters": "En fazla {max} karakter",
+      "positiveNumber": "Pozitif sayı",
+      "fetchFailed": "Veri getirme hatası",
+      "deleteFailed": "Veri silme hatası",
+      "updateFailed": "Veri güncelleme hatası",
+      "createFailed": "Veri oluşturma hatası",
+      "viewFailed": "Veri görüntüleme hatası",
+      "notFound": "Veri bulunamadı",
+      "pleaseAddAtLeastOneOption": "En az bir seçenek ekleyin",
+      "pleaseAddAtLeastOneVariant": "En az bir varyant ekleyin",
+      "invalidNumber": "Geçersiz sayı",
+      "cardNumberLength": "Kart numarası 16 haneli olmalıdır",
+      "expirationMonthLength": "Son kullanma ayı 2 haneli olmalıdır",
+      "expirationYearLength": "Son kullanma yılı 4 haneli olmalıdır",
+      "cvcLength": "CVC 3 haneli olmalıdır"
+    },
+    "success": {
+      "delete": "Veri başarıyla silindi",
+      "update": "Veri başarıyla güncellendi",
+      "create": "Veri başarıyla oluşturuldu",
+      "view": "Veri başarıyla görüntülendi",
+      "activated": "Başarıyla etkinleştirildi",
+      "deactivated": "Başarıyla devre dışı bırakıldı",
+      "completed": "İşlem başarıyla tamamlandı"
+    },
+    "confirmations": {
+      "delete": "Bu kaydı silmek istediğinize emin misiniz?"
+    },
+    "enums": {
+      "paymentStatus": {
+        "pending": "Beklemede",
+        "failed": "Başarısız",
+        "completed": "Tamamlandı"
+      },
+      "cardType": {
+        "CREDIT_CARD": "Kredi Kartı",
+        "DEBIT_CARD": "Banka Kartı"
+      },
+      "shippingStatus": {
+        "pending": "Beklemede",
+        "shipped": "Kargoya Verildi",
+        "on_the_way": "Yolda",
+        "delivered": "Teslim Edildi",
+        "cancelled": "İptal Edildi"
+      },
+      "paymentMethods": {
+        "credit_card": "Kredi Kartı",
+        "cash": "Nakit"
+      },
+      "shippingTypes": {
+        "carrier": "Kargo",
+        "self_pickup": "Kendi Alışveriş"
+      },
+      "campaignType": {
+        "DISCOUNT_PERCENTAGE": "İndirim Yüzdesi",
+        "DISCOUNT_FIXED": "İndirim Tutarı",
+        "FREE_ITEM": "Ücretsiz Ürün",
+        "BUY_X_GET_Y": "X Satın Al, Y Ücretsiz"
+      },
+      "campaignTargetType": {
+        "PRODUCT": "Ürün",
+        "PRODUCT_CATEGORY": "Ürün Kategorisi",
+        "ALL_PRODUCTS": "Tüm Ürünler"
+      },
+      "feedbackType": {
+        "COMPLAINT": "Şikayet",
+        "SUGGESTION": "Öneri",
+        "QUESTION": "Soru",
+        "REPORT": "Rapor",
+        "CONTACT": "İletişim",
+        "OTHER": "Diğer"
+      },
+      "feedbackStatus": {
+        "PENDING": "Beklemede",
+        "RESOLVED": "Çözüldü",
+        "CLOSED": "Kapandı"
+      }
+    }
+  },
+  "header": {
+    "navigation": {
+      "products": "Ürünler",
+      "campaigns": "Kampanyalar",
+      "blog": "Blog",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    },
+    "auth": {
+      "login": "Giriş Yap",
+      "signup": "Kayıt Ol"
+    },
+    "cart": {
+      "title": "Sepet"
+    },
+    "favorites": {
+      "title": "Favoriler"
+    },
+    "menu": {
+      "open": "Menüyü aç",
+      "close": "Menüyü kapat"
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Sorularınız mı var? Sizden haber almaktan mutluluk duyarız. Bize mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+    "form": {
+      "modalTitle": "İletişim Formu",
+      "modalDescription": "Sorularınız mı var? Sizden haber almaktan mutluluk duyarız. Bize mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+      "type": "Tür",
+      "title": "Konu",
+      "titlePlaceholder": "Ne hakkında?",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@email.com",
+      "subject": "Konu",
+      "subjectPlaceholder": "Ne hakkında?",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınız...",
+      "submit": "Mesaj Gönder",
+      "success": "Mesaj başarıyla gönderildi",
+      "error": "Mesaj gönderilemedi",
+      "titleError": "Konu en az 3 karakter olmalıdır",
+      "emailError": "Lütfen geçerli bir e-posta adresi giriniz",
+      "messageError": "Mesaj en az 10 karakter olmalıdır"
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": {
+        "title": "Adres",
+        "line1": "123 Alışveriş Caddesi",
+        "line2": "Perakende Şehri, PS 12345"
+      },
+      "email": {
+        "title": "E-posta",
+        "address": "destek@shopsmart.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "number": "+90 (555) 123 45 67"
+      }
+    },
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "Cumartesi",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Pazar",
+      "sundayTime": "Kapalı"
+    },
+    "success": {
+      "title": "Mesaj Başarıyla Gönderildi",
+      "message": "Bize ulaştığınız için teşekkür ederiz. En kısa sürede size geri dönüş yapacağız.",
+      "homeButton": "Ana Sayfaya Dön",
+      "backButton": "İletişime Dön"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Tüm ihtiyaçlarınız için tek adres. Kaliteli ürünler, uygun fiyatlar ve mükemmel hizmet."
+    },
+    "quickLinks": {
+      "title": "Hızlı Bağlantılar",
+      "products": "Ürünler",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "faq": "SSS"
+    },
+    "customerService": {
+      "title": "Müşteri Hizmetleri",
+      "shipping": "Kargo Politikası",
+      "returns": "İade ve İptal",
+      "terms": "Kullanım Koşulları",
+      "privacy": "Gizlilik Politikası"
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "address": "123 Alışveriş Cad., Perakende Şehri",
+      "email": "destek@shopsmart.com",
+      "phone": "+90 (555) 123 45 67"
+    },
+    "copyright": "© {year} {name}. Tüm hakları saklıdır."
+  },
+  "landing": {
+    "hero": {
+      "title": "İşinizi büyüten e-ticaret platformu",
+      "subtitle": "Satıcılar ve müşteriler için tek ekosistem: kampanyalar, siparişler ve analitik ve ölçeklenebilir yapı."
+    },
+    "cta": {
+      "primary": "İletişime geçin",
+      "secondary": "Platformu inceleyin"
+    },
+    "benefits": {
+      "title": "Neden bizim platformumuz",
+      "subtitle": "Modern bir ticaret deneyimini yönetmek ve büyütmek için ihtiyacınız olan her şey.",
+      "unified": "Kampanya, ürün ve siparişler için tek platform",
+      "scale": "Büyümek için tasarlandı—tek mağazadan çok mağazaya",
+      "insights": "Müşterilerinizi anlamak için raporlar ve analitik"
+    },
+    "features": {
+      "title": "Platform Özellikleri",
+      "subtitle": "Satıcı ve müşteri deneyiminizi güçlendiren eksiksiz özellik seti.",
+      "items": {
+        "Account": {
+          "title": "Hesap",
+          "description": "Alışverişçilerin profil, adres ve tercihlerini tek yerden yönetmesini sağlayın."
+        },
+        "Auth": {
+          "title": "Kimlik Doğrulama",
+          "description": "Web ve mobilde güvenli giriş, kayıt ve token tabanlı erişim."
+        },
+        "Blog": {
+          "title": "Blog",
+          "description": "SEO ve müşteri etkileşimi için makale ve rehberler yayınlayın."
+        },
+        "Campaign": {
+          "title": "Kampanya",
+          "description": "İndirim ve flash satışları tek panelden yönetin."
+        },
+        "Carrier": {
+          "title": "Kargo Firması",
+          "description": "Güvenilir teslimat için kargo firmaları ve tarifeleri yapılandırın."
+        },
+        "Cart": {
+          "title": "Sepet",
+          "description": "Kalıcı sepetler ve ziyaretçiyi alıcıya dönüştüren akıcı ödeme akışı."
+        },
+        "EndUserInformation": {
+          "title": "Son Kullanıcı Bilgisi",
+          "description": "Kişiselleştirme ve destek için zengin müşteri profilleri."
+        },
+        "Favorites": {
+          "title": "Favoriler",
+          "description": "Müşterilerin ürünleri kaydetmesini ve sonra dönmesini sağlayın."
+        },
+        "Feedback": {
+          "title": "Geri Bildirim",
+          "description": "Şikayet, öneri ve soruları tek kanalda toplayın."
+        },
+        "Image": {
+          "title": "Görsel",
+          "description": "Ürün ve marka görsellerini ölçekte yükleyin, boyutlandırın ve sunun."
+        },
+        "Logger": {
+          "title": "Günlük",
+          "description": "Uyumluluk ve hata ayıklama için denetim izleri ve loglar."
+        },
+        "LoyaltySummary": {
+          "title": "Üye Özeti",
+          "description": "Her üye için puan, tier ve ödül görünürlüğü."
+        },
+        "Merchant": {
+          "title": "Satıcı",
+          "description": "Çok mağaza: markalar, şubeler ve pazaryerleri tek yerde."
+        },
+        "MerchantEmployee": {
+          "title": "Satıcı Personeli",
+          "description": "Mağaza veya role göre kapsamlı erişimli personel hesapları."
+        },
+        "Payment": {
+          "title": "Ödeme",
+          "description": "Kart ve alternatif ödeme yöntemleri ile güvenli işleme."
+        },
+        "Permission": {
+          "title": "İzin",
+          "description": "Yönetici ve personel için ayrıntılı erişim kontrolü."
+        },
+        "Product": {
+          "title": "Ürün",
+          "description": "Varyant, stok ve zengin ürün verisi ile tam katalog."
+        },
+        "ProductBrand": {
+          "title": "Ürün Markası",
+          "description": "Filtreleme ve güven için ürünleri markaya göre düzenleyin."
+        },
+        "ProductCategory": {
+          "title": "Ürün Kategorisi",
+          "description": "Keşif için hiyerarşik kategoriler ve gezinme."
+        },
+        "ProductReview": {
+          "title": "Ürün Değerlendirmesi",
+          "description": "Güven oluşturan ve dönüşümü artıran puan ve yorumlar."
+        },
+        "Refund": {
+          "title": "İade",
+          "description": "Net durum ve geçmişle iade ve para iadelerini yönetin."
+        },
+        "Report": {
+          "title": "Rapor",
+          "description": "Satış ve müşteri analitiği hazır çözüm."
+        },
+        "Role": {
+          "title": "Rol",
+          "description": "Admin, yönetici, destek gibi rolleri net izinlerle tanımlayın."
+        },
+        "Session": {
+          "title": "Oturum",
+          "description": "Cihazlar arasında güvenli, yönetilebilir oturumlar."
+        },
+        "Shipping": {
+          "title": "Kargo",
+          "description": "Teslimat seçenekleri, takip ve kargo entegrasyonu."
+        },
+        "Story": {
+          "title": "Hikaye",
+          "description": "Etkileşimi artıran sınırlı süreli hikaye ve kampanyalar."
+        },
+        "Transaction": {
+          "title": "İşlem",
+          "description": "Sipariş yönetimi, geçmiş ve yerine getirme akışı."
+        },
+        "User": {
+          "title": "Kullanıcı",
+          "description": "Müşteri ve satıcı kullanıcı yaşam döngüsü ve yönetimi."
+        },
+        "WebsiteSettings": {
+          "title": "Site Ayarları",
+          "description": "Mağaza ön yüzü için marka, metin ve yapılandırma."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Başlamaya hazır mısınız?",
+      "subtitle": "Satışlarını tek platformda yöneten satıcılara katılın.",
+      "button": "Satış ile iletişime geçin"
+    }
+  }
+}
