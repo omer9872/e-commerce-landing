@@ -305,6 +305,147 @@
         }
       }
     },
+    "products": {
+      "title": "Our products",
+      "subtitle": "Manage your business, serve customers on web, and reach them on mobile.",
+      "adminPanel": {
+        "title": "Admin panel",
+        "description": "Full back-office for merchants: catalog, orders, campaigns, reports, and settings."
+      },
+      "webApp": {
+        "title": "Webpage",
+        "description": "Customer-facing storefront for browsing, cart, checkout, and account."
+      },
+      "mobileApp": {
+        "title": "Mobile app",
+        "description": "Native apps for shoppers: shop on the go, notifications, and seamless experience."
+      }
+    },
+    "process": {
+      "title": "How we build your products",
+      "subtitle": "From first contact to going live, we guide you through every step.",
+      "step1": {
+        "title": "Contact us",
+        "description": "Reach out and tell us about your business and goals."
+      },
+      "step2": {
+        "title": "We plan your package",
+        "description": "We define your package: admin panel, web app, mobile app, and any extra features you need."
+      },
+      "step3": {
+        "title": "We design & develop",
+        "description": "We design and build both mobile and web experiences for your brand."
+      },
+      "step4": {
+        "title": "You go live",
+        "description": "Launch your store and start serving customers."
+      }
+    },
+    "pricing": {
+      "title": "Subscription packages",
+      "subtitle": "Choose the plan that fits your business. Add mobile or custom design when you need it.",
+      "monthly": "Monthly",
+      "plans": {
+        "core": {
+          "name": "Core",
+          "tagline": "Sell Online",
+          "bestFor": "Small businesses, MVPs",
+          "features": {
+            "adminPanelAccess": "Admin panel access",
+            "responsiveWebApp": "Responsive web application",
+            "productCategoryManagement": "Product, brand, category and stock management",
+            "orderTransactionManagement": "Order & transaction management",
+            "basicDiscountCampaigns": "Basic discount campaigns",
+            "singleBusinessLocation": "Single business location",
+            "emailSupport": "Email support",
+            "blog": "Blog Articles",
+            "story": "Daily Stories"
+          },
+          "limitations": {
+            "noMobileApp": "No mobile application",
+            "noCustomDesign": "No custom design",
+            "noApiAccess": "No API access"
+          }
+        },
+        "business": {
+          "name": "Business",
+          "tagline": "Grow & Automate",
+          "bestFor": "Growing stores, multi-location businesses",
+          "features": {
+            "everythingInCore": "Everything in Core",
+            "multiLocationSupport": "Multi-location support",
+            "advancedCampaignSystem": "Advanced campaign system",
+            "feedbackModule": "Feedback module",
+            "refundPartialRefund": "Refund & partial refund support",
+            "analyticsReporting": "Analytics & reporting",
+            "courierDeliveryModule": "Courier / delivery module",
+            "webPushNotifications": "Web push notifications",
+            "prioritySupport": "Priority support"
+          },
+          "limitations": {
+            "noMobileApp": "No mobile application",
+            "noCustomUi": "No custom UI",
+            "noApiAccess": "No API access"
+          }
+        },
+        "platform": {
+          "name": "Platform",
+          "tagline": "Advanced Control",
+          "bestFor": "Chains, franchises, platforms",
+          "features": {
+            "everythingInBusiness": "Everything in Business",
+            "subMerchantMultiVendor": "Sub-merchant / multi-vendor support",
+            "roleBasedAdminUsers": "Role-based admin users",
+            "apiAccess": "API access, custom APIs",
+            "systemLogsAuditTrail": "System logs & audit trail",
+            "customDomain": "Custom domain",
+            "slaBackedSupport": "SLA-backed support"
+          },
+          "limitations": {
+            "mobileAppNotIncludedByDefault": "Mobile application not included by default"
+          }
+        }
+      },
+      "recommended": "Recommended",
+      "addOnsTitle": "Add-ons",
+      "addons": {
+        "mobileApp": {
+          "title": "Mobile Application",
+          "description": "Client-specific branded mobile app built on demand",
+          "maintenanceTitle": "Maintenance (optional subscription)",
+          "oneTimeFees": {
+            "single_platform": "Single Platform (iOS or Android)",
+            "both_platforms": "iOS + Android"
+          },
+          "maintenance": {
+            "includes": {
+              "osCompatibilityUpdates": "OS compatibility updates",
+              "bugFixes": "Bug fixes",
+              "storePolicyUpdates": "App Store & Play Store policy updates",
+              "backendApiCompatibility": "Backend API compatibility"
+            },
+            "excludes": {
+              "newFeatures": "New features",
+              "majorUiChanges": "Major UI changes"
+            }
+          }
+        },
+        "customWebDesign": {
+          "title": "Custom Web Design",
+          "includes": {
+            "customUiUxDesign": "Custom UI/UX design",
+            "brandBasedTheme": "Brand-based theme",
+            "landingStorefrontRedesign": "Landing page & storefront redesign"
+          }
+        },
+        "extrasTitle": "Extras",
+        "extras": {
+          "extra_location": "Extra Business Location",
+          "extra_orders": "Extra 500 Orders",
+          "dedicated_server": "Dedicated Server"
+        }
+      }
+    },
     "finalCta": {
       "title": "Ready to get started?",
       "subtitle": "Join merchants who run their sales on one platform.",

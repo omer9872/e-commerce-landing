@@ -355,6 +355,147 @@
         }
       }
     },
+    "products": {
+      "title": "Ürünlerimiz",
+      "subtitle": "İşinizi yönetin, müşterilere web'de hizmet verin, mobilde ulaşın.",
+      "adminPanel": {
+        "title": "Yönetim paneli",
+        "description": "Satıcılar için tam back-office: katalog, siparişler, kampanyalar, raporlar ve ayarlar."
+      },
+      "webApp": {
+        "title": "Websitesi",
+        "description": "Müşteriye yönelik mağaza: ürünler, sepet, ödeme ve hesap."
+      },
+      "mobileApp": {
+        "title": "Mobil uygulama",
+        "description": "Alışverişçiler için native uygulamalar: hareket halinde alışveriş, bildirimler ve akıcı deneyim."
+      }
+    },
+    "process": {
+      "title": "Ürünlerinizi nasıl oluşturuyoruz",
+      "subtitle": "İlk temastan yayına kadar, her adımda yanınızdayız.",
+      "step1": {
+        "title": "Bize ulaşın",
+        "description": "İşinizi ve hedeflerinizi anlatın."
+      },
+      "step2": {
+        "title": "Paketinizi planlıyoruz",
+        "description": "Yönetim paneli, web uygulaması, mobil uygulama ve ihtiyacınız olan ek özellikleri belirliyoruz."
+      },
+      "step3": {
+        "title": "Tasarım ve geliştirme",
+        "description": "Mobil ve web deneyimini markanıza özel tasarlayıp geliştiriyoruz."
+      },
+      "step4": {
+        "title": "Yayına geçiyorsunuz",
+        "description": "Mağazanızı açın ve müşterilerinize hizmet vermeye başlayın."
+      }
+    },
+    "pricing": {
+      "title": "Abonelik paketleri",
+      "subtitle": "İşletmenize uyan planı seçin. İhtiyaç duydukça mobil veya özel tasarım ekleyin.",
+      "monthly": "Aylık",
+      "plans": {
+        "core": {
+          "name": "Core",
+          "tagline": "Online Sat",
+          "bestFor": "Küçük işletmeler, MVP'ler",
+          "features": {
+            "adminPanelAccess": "Yönetim paneli erişimi",
+            "responsiveWebApp": "Responsive web uygulaması",
+            "productCategoryManagement": "Ürün, marka, kategori ve stok yönetimi",
+            "orderTransactionManagement": "Sipariş ve işlem yönetimi",
+            "basicDiscountCampaigns": "Temel indirim kampanyaları",
+            "singleBusinessLocation": "Tek işletme lokasyonu",
+            "emailSupport": "E-posta desteği",
+            "blog": "Blog Yazıları",
+            "story": "Günlük Hikayeler"
+          },
+          "limitations": {
+            "noMobileApp": "Mobil uygulama yok",
+            "noCustomDesign": "Özel tasarım yok",
+            "noApiAccess": "API erişimi yok"
+          }
+        },
+        "business": {
+          "name": "Business",
+          "tagline": "Büyü ve Otomatikleştir",
+          "bestFor": "Büyüyen mağazalar, çok lokasyonlu işletmeler",
+          "features": {
+            "everythingInCore": "Core'daki her şey",
+            "multiLocationSupport": "Çok lokasyon desteği",
+            "advancedCampaignSystem": "Gelişmiş kampanya sistemi",
+            "feedbackModule": "Geri bildirim modülü",
+            "refundPartialRefund": "İade ve kısmi iade desteği",
+            "analyticsReporting": "Analitik ve raporlama",
+            "courierDeliveryModule": "Kargo / teslimat modülü",
+            "webPushNotifications": "Web push bildirimleri",
+            "prioritySupport": "Öncelikli destek"
+          },
+          "limitations": {
+            "noMobileApp": "Mobil uygulama yok",
+            "noCustomUi": "Özel arayüz yok",
+            "noApiAccess": "API erişimi yok"
+          }
+        },
+        "platform": {
+          "name": "Platform",
+          "tagline": "Gelişmiş Kontrol",
+          "bestFor": "Zincirler, franchise'lar, platformlar",
+          "features": {
+            "everythingInBusiness": "Business'taki her şey",
+            "subMerchantMultiVendor": "Alt satıcı / çok satıcı desteği",
+            "roleBasedAdminUsers": "Rol tabanlı yönetici kullanıcıları",
+            "apiAccess": "API erişimi, özel API'ler",
+            "systemLogsAuditTrail": "Sistem logları ve denetim izi",
+            "customDomain": "Özel domain",
+            "slaBackedSupport": "SLA destekli destek"
+          },
+          "limitations": {
+            "mobileAppNotIncludedByDefault": "Mobil uygulama varsayılan olarak dahil değil"
+          }
+        }
+      },
+      "recommended": "Önerilen",
+      "addOnsTitle": "Ek paketler",
+      "addons": {
+        "mobileApp": {
+          "title": "Mobil Uygulama",
+          "description": "Talep üzerine müşteriye özel markalı mobil uygulama",
+          "maintenanceTitle": "Bakım (isteğe bağlı abonelik)",
+          "oneTimeFees": {
+            "single_platform": "Tek platform (iOS veya Android)",
+            "both_platforms": "iOS + Android"
+          },
+          "maintenance": {
+            "includes": {
+              "osCompatibilityUpdates": "İşletim sistemi uyumluluk güncellemeleri",
+              "bugFixes": "Hata düzeltmeleri",
+              "storePolicyUpdates": "App Store ve Play Store politika güncellemeleri",
+              "backendApiCompatibility": "Backend API uyumluluğu"
+            },
+            "excludes": {
+              "newFeatures": "Yeni özellikler",
+              "majorUiChanges": "Büyük arayüz değişiklikleri"
+            }
+          }
+        },
+        "customWebDesign": {
+          "title": "Özel Web Tasarım",
+          "includes": {
+            "customUiUxDesign": "Özel UI/UX tasarımı",
+            "brandBasedTheme": "Marka odaklı tema",
+            "landingStorefrontRedesign": "Landing sayfası ve mağaza yeniden tasarımı"
+          }
+        },
+        "extrasTitle": "Ekstralar",
+        "extras": {
+          "extra_location": "Ek İşletme Lokasyonu",
+          "extra_orders": "Ek 500 Sipariş",
+          "dedicated_server": "Özel Sunucu"
+        }
+      }
+    },
     "finalCta": {
       "title": "Başlamaya hazır mısınız?",
       "subtitle": "Satışlarını tek platformda yöneten satıcılara katılın.",

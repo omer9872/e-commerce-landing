@@ -62,7 +62,7 @@ export default function ContactPage() {
   };
 
   return (
-    <Container className="min-h-screen py-12">
+    <Container className="py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">{t("contact.title")}</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400">

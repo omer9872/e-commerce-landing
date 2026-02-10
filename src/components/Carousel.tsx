@@ -180,8 +180,8 @@ const Carousel: React.FC<CarouselProps> = ({
         autoplay={autoplay}
         spaceBetween={spaceBetween}
         slidesPerView={slidesPerView}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         {items.map((item, index) => (
           <SwiperSlide key={index}>{item}</SwiperSlide>

@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { Toaster } from "react-hot-toast";
 import type { Metadata } from "next";
-import Image from "next/image";
 
 import "./globals.scss";
 
@@ -16,8 +15,13 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "ShopSmart",
-  description: "Your smart shopping companion",
+  title: "TıkSatış.com",
+  description: "TıkSatış.com - Online Satış Platformu",
+  icons: {
+    icon: "/favicon-32x32.png",
+    shortcut: "/favicon-32x32.png",
+    apple: "/favicon-32x32.png",
+  },
 };
 
 export default async function RootLayout({
@@ -47,7 +51,7 @@ export default async function RootLayout({
                 <Footer
                 />
                 <Toaster />
-                <HelpButton />
+                {/* <HelpButton /> */}
               </div>
             </ThemeProvider>
           </LocaleProvider>
