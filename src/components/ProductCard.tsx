@@ -90,7 +90,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       <div className="h-[245px] aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-t-lg bg-light-card-bg dark:bg-dark-card-bg">
         {product.images[0] ? (
           <Image
-            src={`${process.env.NEXT_PUBLIC_API_URL}/product-web/image/${product.images[0]}`}
+            src={`${process.env.NEXT_PUBLIC_API_URL}/product-public/image/${product.images[0]}`}
             alt={product.name}
             width={500}
             height={500}

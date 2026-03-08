@@ -54,7 +54,7 @@ export default function RefundList({ refunds }: RefundListProps) {
               <div key={item._id} className="flex gap-4">
                 <div className="relative w-20 h-20 rounded-lg overflow-hidden">
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_API_URL}/product-web/image/${item.product.images[0]}`}
+                    src={`${process.env.NEXT_PUBLIC_API_URL}/product-public/image/${item.product.images[0]}`}
                     alt={item.product.name}
                     fill
                     className="object-cover"

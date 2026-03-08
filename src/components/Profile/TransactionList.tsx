@@ -117,7 +117,7 @@ export default function TransactionList({
                           >
                             <div className="relative w-16 h-16 flex-shrink-0">
                               <Image
-                                src={`${process.env.NEXT_PUBLIC_API_URL}/product-web/image/${paymentProduct.product.images[0]}`}
+                                src={`${process.env.NEXT_PUBLIC_API_URL}/product-public/image/${paymentProduct.product.images[0]}`}
                                 alt={paymentProduct.product.name}
                                 fill
                                 className="object-cover rounded-lg"
